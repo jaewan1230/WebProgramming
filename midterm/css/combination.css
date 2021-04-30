@@ -1,0 +1,99 @@
+div#board {
+    width: 85%;
+    height: auto;
+    /* background-color: rgb(255, 194, 0); */
+    background-color: white;
+    margin-top: 0px;
+    /* border-left: 30px solid rgb(255, 194, 0); */
+    /* border-right: 30px solid rgb(255, 194, 0); */
+    /* background-color: rgb(12, 139, 51); */
+    border: 50px solid rgb(255, 194, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+div#title {
+    width: 101%;
+    height: 180px;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.85); */
+    /* background-color: rgb(12, 139, 51); */
+    background-color: rgb(255, 194, 0);
+    position: relative;
+    left: -1px;
+    top: -30px;
+}
+#title p1 {
+    font-family: "청소년체";
+    position: relative;
+    /* color: rgb(12, 139, 51); */
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    top: 35px;
+}
+#title p2 {
+    font-family: "청소년체";
+    position: relative;
+    color: black;
+    font-size: 20px;
+    /* font-weight: 600; */
+    top: 55px;
+}
+div#sub_menu {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: rgb(12, 139, 51);
+    text-align: center;
+    color: rgb(12, 139, 51);
+    top: -30px;
+    left: -1px;
+    border-left: 1px solid rgb(12, 139, 51);
+    border-right: 1px solid rgb(12, 139, 51);
+}
+#sub_menu a {
+    font-family: "청소년체";
+    position: relative;
+    text-decoration: none;
+    /* font-weight: 600; */
+    margin: 0px 10px 0px 10px;
+    top: 13px;
+    font-size: 17px;
+}
+#sub_menu a:link {color: white;}        
+#sub_menu a:visited {color :white;}
+#sub_menu a:hover {
+    color: rgb(255, 194, 0);
+    text-decoration: underline;
+}
+#sub_menu a:active {
+    color: rgb(255, 194, 0);
+    text-decoration: underline;
+}
+img {
+    height: 200px;
+    /* margin-top: 30px; */
+    margin: 0px 0px 50px -1px;
+}
+div#index {
+    width: 250px;
+    height: 35px;
+    background-color: rgb(12, 139, 51);
+    float: right;
+    color: white;
+    font-family: "청소년체";
+    text-align: center;
+    padding-top: 15px;
+    /* font-weight: bold; */
+    font-size: 17px;
+    position: relative;
+    right: -1px;
+}
+div#go_up {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 50px 50px 50px 50px;
+    bottom: 15px;
+    right: 10px;
+}

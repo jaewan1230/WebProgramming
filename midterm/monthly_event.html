@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/monthly_event.css">
+    <script>
+        $(document).ready(function() {
+            var src;
+            $(".ended").mouseenter(function() {
+                var id = $(this).attr("id");
+                src = $(this).attr("src");
+                document.getElementById(id).setAttribute("src", "./images/ended_event.png");
+            });
+            $(".ended").mouseleave(function() {
+                id = $(this).attr("id");
+                document.getElementById(id).setAttribute("src", src);
+            });
+        });
+        
+    </script>
+</head>
+<body style="background-color: rgb(12, 139, 51);">
+    <div id="menu">
+        <a href="./main.html"><img src="./images/subway_logo.jpg" id="logo"></a>
+        <ul>
+            <li><a href="./menu_list/sandwich.html">메뉴소개</a>
+                <ul>
+                    <li><a href="./menu_list/sandwich.html">샌드위치</a></li>
+                    <li><a href="./menu_list/unit.html">랩 / 기타</a></li>
+                    <li><a href="./menu_list/salad.html">찹샐러드</a></li>
+                </ul>
+            </li>
+            <li><a href="./usage.html">이용방법</a></li>
+            <li><a href="./combination.html">꿀조합</a></li>
+            <li><a id="selected" href="./monthly_event.html">이달의 썹!</a></li>
+        </ul>
+    </div>
+    <div id="line"></div>
+    <div id="board">
+        <div id="title">
+            <p2>이 달의 </p2>
+            <p1>썹!프라이즈! </p1>
+            <p2>할인을 받아보세요!</p2>
+        </div>
+        <table id="event_table" width="1200">
+            <tr>
+                <td><a href="https://www.subway.co.kr/eventView?eventIdx=189&query=page%3D1%26eventState%3D"><img src="./images/monthly_sub/20210302_20210502.png" alt=""></a></td>
+                <td><img src="./images/monthly_sub/20201102_20210103.png" alt="" id="img_ended5" class="ended"></td>
+                <td><img src="./images/monthly_sub/20200901_20201031.png" alt="" id="img_ended4" class="ended"></td>
+                <td><img src="./images/monthly_sub/20200701_20200831.png" alt="" id="img_ended3" class="ended"></td>
+            </tr>
+            <tr>
+                <td><img src="./images/monthly_sub/20200501_20200630.jpg" alt="" id="img_ended2" class="ended"></td>
+                <td><img src="./images/monthly_sub/20200101_20200228.jpg" alt="" id="img_ended1" class="ended"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

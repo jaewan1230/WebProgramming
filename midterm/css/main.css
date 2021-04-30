@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "청소년체";
+    src: url(../font/청소년서체.ttf);
+}
+#menu ul {
+    width: 1080px;
+    float: right;
+    padding-left: 0px;
+    padding: 30px 0px 50px 0px;
+    margin-top: 5px;
+    background-color: rgb(12, 139, 51);
+    z-index: 2;
+}
+#menu ul li {
+    float: left;
+    list-style-type: none;
+    border-left: 3px solid rgb(255, 194, 0);
+    font-size: 19px;
+    padding: 0px 100px 0px 100px;
+    margin: 20px 0px 0px 0px;
+}
+#menu ul li:first-child {
+    border-left: none;
+}
+#menu ul li:hover ul {display: block;}
+#menu ul ul {
+    width: 260px;
+    display: none;
+    position: absolute;
+    margin: 0px 0px 0px -96px;
+    background-color: rgba(12, 139, 51, 0.9);
+    padding-top: 15px;
+    z-index: 1;
+    /* display: block; */
+}
+/* #menu_list .hide{display: none;} */
+#menu ul ul li {
+    float: none;
+    border: none;
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    border-bottom: 2px dotted white;
+    font-size: 15px;
+}
+#menu a {
+    text-decoration: none;
+    font-family: "청소년체";
+}
+#menu a:link {color: white;}
+#menu a:visited {color: white;}
+#menu a:hover {color:rgb(255, 194, 0);}
+#menu a:active {color: rgb(255, 194, 0);}
+#menu a:link#selected {color:rgb(255, 194, 0)}
+#menu a:visited#selected {color: rgb(255, 194, 0);}
+img#logo {
+    width: 280px;
+    height: auto;
+    margin: -10px 0px 0px 60px;
+}
+div#line {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-top: 35px;
+}
+div#board {
+    width: 100%;
+    height: 520px;
+    background-color: rgb(255, 194, 0);
+    margin-top: 0px;
+}
+#board div {
+    width: 1500px; 
+    height: 250px;
+}
+#board img {
+    height: 100%;
+    width: auto;
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+#board iframe {
+    position: relative;
+    width: auto;
+    height: 100%;
+    float: left;
+    left: 70px;
+    top: 10px;
+}
+div#promotion {
+    width: 1600px;
+    height: 700px;
+}
+#promotion img {
+    width: auto;
+    height: 230px;
+    position: relative;
+    float: left;
+    top: 26px;
+    margin-right: 25px;
+    left: 40px;
+}
+#promotion img#news {
+    height: 230px;
+    width: auto;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+#promotion img#logo1 {
+    height: 220px;
+    width: auto;
+    position: relative;
+    top: 28px;
+    left: 75px;
+    float: left;
+}
+#promotion div {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    float: left;
+    top: 14px;
+    left: 20px;
+}
+#promotion div div {
+    width: 100%;
+    height: 40px;
+    /* background-color: white; */
+    border: 4px solid rgb(12, 139, 51);
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+#promotion a{
+   text-decoration: none;
+   font-family: "청소년체";
+   font-size: 17px;
+}
+#promotion a:link{color: black;}
+#promotion a:visited{color: black;}
+#promotion a:hover{color: white;}
+#promotion a:active{color: white;}

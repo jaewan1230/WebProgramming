@@ -1,0 +1,46 @@
+div#board {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 10px;
+}
+div#title {
+    width: 96.7%;
+    height: 50px;
+    /* text-align: center; */
+    background-color: rgb(255, 194, 0);
+    padding: 18px 0px 0px 50px;
+    margin-top: -10px;
+}
+#title p1 {
+    position: relative;
+    font-family: "청소년체";
+    color:rgb(76, 0, 106);
+    font-size: 22px;
+    font-weight: 600;
+    top: 5px;
+}
+#title p2 {
+    position: relative;
+    font-family: "청소년체";
+    color: black;
+    font-size: 18px;
+    /* font-weight: 600; */
+    top: 5px;
+}
+table#event_table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+#event_table img {
+    width: 300px;
+    height: auto;
+}
+#event_table img:hover {
+    width: 284px;
+    height: auto;
+    border: 5px solid rgb(12, 139, 51);
+    background-color: rgb(12, 139, 51);
+    padding: 3px;
+}
